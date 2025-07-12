@@ -14,4 +14,4 @@ Para conectar o JavaScript em seu html, é recomendado que siga algumas regras:
     
     - Maneiras de formatação:
         - <script></script>
-        -  
+        - <script src=""><script>
