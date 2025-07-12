@@ -15,4 +15,3 @@ Para conectar o JavaScript em seu HTML, é recomendado que siga algumas regras:
     - Maneiras de formatação:
         - <script></script>
         - <script src=""><script>
-           - Anexa um link externo
