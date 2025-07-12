@@ -10,7 +10,7 @@ JavaScript é uma linguagem de programação que, originalmente, foi criada para
 Com o passar do tempo, passou a ser utilizada também no lado do servidor (server-side), sendo hoje amplamente usada tanto no front-end quanto no back-end.
 
 ## Conectando o Js
-Para conectar o JavaScript em seu html, é recomendado que siga algumas regras:
+Para conectar o JavaScript em seu HTML, é recomendado que siga algumas regras:
     
     - Maneiras de formatação:
         - <script></script>
