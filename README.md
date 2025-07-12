@@ -19,3 +19,19 @@ Para conectar o JavaScript em seu HTML, é recomendado que siga algumas regras:
         - <script src=""><script>
             - Externo
     
+- Colocar sempre no fim do documento, antes da tag de fechamento do body.
+
+## Comentários
+Para fazer coméntarios basta colocar duas barras em sequência. Desta forma:
+
+        JavaScript
+            // comentário
+            if (){
+
+            }
+            // outro comentário
+     
+- Teclas de atalho para fazer um comentário:
+    - Ctrl + ; 
+
+# Variáveis e constantes
