@@ -35,3 +35,16 @@ Para fazer coméntarios basta colocar duas barras em sequência. Desta forma:
     - Ctrl + ; 
 
 # Variáveis e constantes
+Variáveis são espaços na memória utilizados para armazenar dados que podem ser manipulados e reutilizados ao longo da execução do programa.
+
+No JavaScript, existem três formas de declarar variáveis: <code>var</code>, <code>let</code> e <code>const</code>:
+
+    - var: É a forma mais antiga. Tem escopo de função e sofre hoisting, podendo causar comportamentos   inesperados.
+
+    - let: introduzida no ES6, possui escopo de bloco e permite reatribuição.
+
+    - const: também tem escopo de bloco, mas não permite que a variável seja reatribuída após sua declaração.
+
+- Prefira <code>let</code> e <code>const</code> no seu dia a dia. A <code>var</code> está praticamente aposentada e só aparece em códigos legados.
+
+### Explicação de escopos
