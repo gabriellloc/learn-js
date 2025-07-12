@@ -11,7 +11,11 @@ Com o passar do tempo, passou a ser utilizada também no lado do servidor (serve
 
 ## Conectando o Js
 Para conectar o JavaScript em seu HTML, é recomendado que siga algumas regras:
-    
+
+
     - Maneiras de formatação:
-        - <script></script>
+        - <script> </script>
+            - Interno
         - <script src=""><script>
+            - Externo
+    
