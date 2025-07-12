@@ -39,12 +39,24 @@ Variáveis são espaços na memória utilizados para armazenar dados que podem s
 
 No JavaScript, existem três formas de declarar variáveis: <code>var</code>, <code>let</code> e <code>const</code>:
 
-    - var: É a forma mais antiga. Tem escopo de função e sofre hoisting, podendo causar comportamentos inesperados.
+    - var: É a forma mais antiga de declarar variáveis. Possui escopo de função, sofre hoisting e não respeita escopo de bloco. Quando declarada fora de uma função, torna-se uma variável global.
 
-    - let: Introduzida no ES6, possui escopo de bloco e permite reatribuição.
+    - let: Introduzida no ES6, possui escopo de bloco e permite alterações.
 
-    - const: Também tem escopo de bloco, mas não permite que a variável seja reatribuída após sua declaração.
+    - const: Também tem escopo de bloco, mas não permite que a variável seja alterada após sua declaração.
 
 - Prefira <code>let</code> e <code>const</code> no seu dia a dia. A <code>var</code> está praticamente aposentada e só aparece em códigos legados.
 
 ### Explicação de escopos
+É a região do código onde uma determinada variável é <strong>acessível ou visível.</strong>
+
+O escopo define o contexto no qual uma varável pode ser referenciada e modificada.
+    
+    Tipos de escolos:
+        - Global: Variáveis declaradas fora de qualquer função ou bloco de código.
+        
+        - Bloco: Acessível apenas dentro do bloco de código onde foram declaradas.
+        
+        - Local (ou de função): Váriaveis declaradas dentro de uma função.
+
+### Hoisting
