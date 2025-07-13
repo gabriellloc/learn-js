@@ -19,6 +19,7 @@ Me chamo Gabriel Oliveira e este repositório reúne tudo o que aprendi sobre o 
     - [Boolean](#boolean)
     - [Undefined e Null](#undefined-e-null)
     - [Conversão e coerção de tipos](#conversão-e-coerção-de-tipos)
+- [Operadores e expressões](#operadores-e-expressões)
 
 ## Editor de código
 A escolha de um editor de código é pessoal. <br>
@@ -206,3 +207,17 @@ Considerou os dois como String e concatenou as duas Strings.
 Considerou os dois como Number e somou os dois.
 
 <strong>[Ir para o próximo capítulo](./read/cap2.md)</strong>
+
+## Operadores e expressões
+
+Operadores<br>
+<strong>Definição:</strong> São símbolos que realizam operações em operandos(valores ou variáveis).
+<br>
+Utilizados para manipular e comparar valores, realizar operações aritméticas, lógicas, de atribuição, entre outras.
+
+Expressões<br>
+<strong>Definição:</strong> É uma combinação de valores, variáveis, operadores e chamadas de função que, quando avaliada, resulta em um valor.
+
+    let sum = 5 + 3
+
+O 5 e o 3 são os operadores, que formam a expressão.
