@@ -144,7 +144,7 @@ Já o null signica nulo.<br>
 
     let people_I_hate = null
 
-A gente atribui o valor "nulo" a variável
+A gente atribuiu o valor "nulo" a variável
 
 ### Conversão e coerção de tipos
 <strong>Conversão</strong> ocorre de forma consciente, quando você transforma um valor de um tipo para outro, usando métodos específicos para realizar a conversão.
