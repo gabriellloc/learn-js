@@ -301,3 +301,8 @@ O mesmo vale para o decremento.
         </tr>
     </tbody>
 <table>
+<span style="display:flex; justify-content:end; margin-inline: 2rem;">
+
+### [Próxima parte.](./read/parte-2.md)
+
+</span>
