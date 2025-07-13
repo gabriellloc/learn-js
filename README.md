@@ -161,7 +161,7 @@ Converter uma String para Number
     9
 
 
-Para String:
+De Number para String:
 
     let age = 18 // Number
     age = age.toString() // Ou String(age)
@@ -172,7 +172,7 @@ Para String:
     "18"
 
 
-Para Boolean:
+De Number para Boolean:
 
     let option = 1
     option = Boolean(option)
