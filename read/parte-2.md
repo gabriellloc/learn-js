@@ -4,7 +4,7 @@
 
 [Voltar para a parte 1](../README.md)
 
-[Ir para a parte 3]()
+[Ir para a parte 3](./parte-3.md)
 
 </span>
 
