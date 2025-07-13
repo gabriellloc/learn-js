@@ -1,7 +1,9 @@
 # Aprendendo JavaScript
-Aprendendo JavaScript do zero com cursos, desafíos e comentários. Usando o readme como bloco de notas.
+O <strong>básico</strong> do JavaScript.<br>
+Me chamo Gabriel Oliveira e este repositório reúne tudo o que aprendi sobre o glorioso <strong>Js</strong>.
 
 ## SUMÁRIO
+- [Aprendendo JavaScript](#aprendendo-javascript)
 - [Editor de código](#editor-de-código) 
 - [Objetivo e funcionalidade](#objetivo-e-funcionalidade)
 - [Conectando o js](#conectando-o-js)
