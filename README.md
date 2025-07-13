@@ -1,6 +1,5 @@
 # Aprendendo JavaScript <img width="30rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
-          
-          
+
 O <strong>básico</strong> do JavaScript.<br>
 Me chamo Gabriel Oliveira e este repositório reúne tudo o que aprendi sobre o glorioso <strong>Js</strong>.
 
@@ -22,6 +21,8 @@ Me chamo Gabriel Oliveira e este repositório reúne tudo o que aprendi sobre o 
 - [Operadores e expressões](#operadores-e-expressões)
     - [Incremento e Decremento](#incremento-e-decremento)
     - [Ordem de precedência](#ordem-de-precedência)
+
+[Ir para a parte 2](./read/parte-2.md)
 
 ## Editor de código
 A escolha de um editor de código é pessoal. <br>
