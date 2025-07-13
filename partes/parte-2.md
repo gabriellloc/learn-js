@@ -42,3 +42,20 @@ Primeiro, para dirigir, o usuário precisa ter idade igual ou superior a 18 anos
     Você não pode dirigir
 
 Como a condição foi <strong>falsa</strong>, o código pulou o primeiro bloco e seguiu para o <code>else</code>.
+
+Para utilizar mais de uma condição, nós podemos usar o <code>else if</code>:
+
+    let hour = 19
+
+    if (hour <= 12) {
+        console.log("Bom dia!")
+    } 
+    else if (hour > 12 && hour < 18) {
+        console.log("Boa tarde!")
+    } 
+    else {
+        console.log("Boa noite!")
+    }
+
+    // Saída
+    Boa noite!
