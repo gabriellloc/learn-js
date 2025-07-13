@@ -256,3 +256,50 @@ O mesmo vale para o decremento.
 
 ### Ordem de precedência
 É quando uma expressão contém múltiplos operadores, na programação e em expressões matemáticas, a ordem de precedência define qual operação será realizada primeiro.
+
+<table>
+    <thead>
+        <tr>
+            <th>Nível</th>
+            <th>Categoria</th>
+            <th>Operadores</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>7 (alto)</th>
+            <th>Exponenciação</th>
+            <th>**</th>
+        </tr>
+        <tr>
+            <th>6</th>
+            <th>Multiplicação</th>
+            <th>*, /, //, %</th>
+        </tr>
+        <tr>
+            <th>5</th>
+            <th>Adição</th>
+            <th>+, -</th>
+        </tr>
+        <tr>
+            <th>4</th>
+            <th>relacional</th>
+            <th>==, !=, <=, >=, >, <</th>
+        </tr>
+        <tr>
+            <th>3</th>
+            <th>Lógico</th>
+            <th>not</th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>Lógico</th>
+            <th>and</th>
+        </tr>
+        <tr>
+            <th>1 (baixo)</th>
+            <th>Lógico</th>
+            <th>or</th>
+        </tr>
+    </tbody>
+<table>
