@@ -149,7 +149,7 @@ A gente atribuiu o valor "nulo" a variável
 ### Conversão e coerção de tipos
 <strong>Conversão</strong> ocorre de forma consciente, quando você transforma um valor de um tipo para outro, usando métodos específicos para realizar a conversão.
 
-Converter uma String para Number
+Converter uma String para Number:
 
     let value = "9" // String
     value = Number(value)
