@@ -95,9 +95,9 @@ Uma exceção é uma condição ou evento <strong>imprevisto</strong> que ocorre
 Estrutura:
 
     Try {
-
-    } Catch {
-
+        // Tenta executar algo
+    } Catch (error) {
+        // Captura o erro para tratar e armazena na variável
     } Finally {
         
     }
