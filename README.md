@@ -15,7 +15,7 @@ Me chamo Gabriel Oliveira e este repositório reúne tudo o que aprendi sobre o 
     - [String](#string)
     - [Number](#number)
     - [Boolean](#boolean)
-    - [Undefined e Null](#)
+    - [Undefined e Null](#undefined-e-null)
 
 ## Editor de código
 A escolha de um editor de código é pessoal. <br>
@@ -130,3 +130,17 @@ Neste caso, a variável <code>isLoading</code> é do tipo bolean.<br>
 Perceba que, diferente da <code>String</code>, o true não fica entre aspas nem crases, pois ele não é um texto, e sim um valor booleano (um estado lógico).
 
 ### Undefined e Null
+Undefined significa indefinido.<br>
+É uma variável que o JavaScript atribui de forma automática.
+É atribuida para variáveis que não possuem nenhum valor.
+
+    let dia
+
+Não da erro de sintaxe, pois a variável exise, ela apenas não possui nenhum valor.
+
+Já o null signica nulo.<br>
+É uma variável que a gente precisa atribuir.
+
+    let people_I_hate = null
+
+A gente atribui o valor "nulo" a variável
