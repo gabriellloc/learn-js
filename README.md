@@ -196,6 +196,8 @@ Vai depender muito de navegador para navegador. O JavaScript vai acabar consider
 
 Considerou os dois como String e concatenou as duas Strings.
 
+<hr>
+
     // Outra Saída possível
     15
 
