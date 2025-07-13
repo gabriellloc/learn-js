@@ -187,7 +187,7 @@ No Bolean, todos os valores maiores ou menores que 0 (zero) são considerados <c
 Já a <strong>Coerção</strong> ocorre de forma automática. O javaScript tenta automaticamente converter um dos valores para um tipo compatível antes de realiar a operação.
 
     console.log("10" + 5) 
-    // Estou somando um Number com uma String
+    // Estou somando uma String com um Number
 
 Vai depender muito de navegador para navegador. O JavaScript vai acabar considerando os dois como Number ou como String, e sim, isso vai afetar o resultado.
 
