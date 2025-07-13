@@ -10,6 +10,7 @@ Aprendendo JavaScript do zero com cursos, desafíos e comentários. Usando o rea
     - [Explicação de escopos](#explicação-de-escopos)
     - [Hoisting](#hoisting-levantar-ou-içar)
 - [Tipos de dados](#tipos-de-dados)
+    - [String](#string)
 
 ## Editor de código
 A escolha de um editor de código é pessoal. <br>
@@ -88,3 +89,14 @@ Os tipos Primitivos de variáveis são:
     - undefined: Não armazeda valor, não foi definida ainda.
 
 Ainda tem outros como os Array e o object. Mas, eles vão ficar para outro momento.
+
+### String
+Destinadas a armazenar texto.
+
+    let nome = "Gabriel"
+
+Neste caso, o tipo da variável <code>nome</code> é string.
+
+As <strong>strings</strong> pode ser criadas com aspas simples (' '), aspas duplas (" ") ou crase (``).
+
+
