@@ -20,6 +20,8 @@ Me chamo Gabriel Oliveira e este repositório reúne tudo o que aprendi sobre o 
     - [Undefined e Null](#undefined-e-null)
     - [Conversão e coerção de tipos](#conversão-e-coerção-de-tipos)
 - [Operadores e expressões](#operadores-e-expressões)
+    - [Incremento e Decremento](#incremento-e-decremento)
+    - [Ordem de precedência](#ordem-de-precedência)
 
 ## Editor de código
 A escolha de um editor de código é pessoal. <br>
@@ -221,3 +223,34 @@ Expressões<br>
     let sum = 5 + 3
 
 O 5 e o 3 são os operadores, que formam a expressão.
+
+### Incremento e Decremento
+Incremento:
+
+    let num = 1
+    num++
+    console.log(num)
+    
+    //Saída
+    2
+
+Decremento:
+
+    let num = 1
+    num--
+    console.log(num)
+    
+    //Saída
+    0
+
+Para incrementar/decrementar valores diferentes de 1:
+
+    let num = 1
+    num += 10
+    console.log(num)
+
+    //Saída
+    11
+
+O mesmo vale para o decremento.
+
