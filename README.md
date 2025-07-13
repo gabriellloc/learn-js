@@ -99,4 +99,5 @@ Neste caso, o tipo da variável <code>nome</code> é string.
 
 As <strong>strings</strong> pode ser criadas com aspas simples (' '), aspas duplas (" ") ou crase (``).
 
+Template literals com a crase para construção e formatação de texto.
 
