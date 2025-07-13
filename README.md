@@ -9,7 +9,7 @@ Aprendendo JavaScript do zero com cursos, desafíos e comentários. Usando o rea
 - [Variáveis e constantes](#variáveis-e-constantes)
     - [Explicação de escopos](#explicação-de-escopos)
     - [Hoisting](#hoisting-levantar-ou-içar)
-
+- [Tipos de dados](#tipos-de-dados)
 
 ## Editor de código
 A escolha de um editor de código é pessoal. <br>
@@ -74,3 +74,17 @@ Refere ao comportamento do interpretador de mover as declarações de variáveis
 Esse comportamento possibilita usar uma variável ou função antes que ela esteja definida.
 
 <strong>Importante:</strong> Mesmo que as declarações sejam movidas para o topo do escopo, elas precisam ser declaradas antes de serem usadas. Caso contrário, você receberá uma referência indefinida <i>(undefined)</i>.
+
+## Tipos de dados
+O tipo da variável é definida dinamicamente pelo valor atribuído <strong>(Não é necessário declarar o tipo)</strong>.<br>
+Além disso, é possível reatribuir uma mesma variável com um tipo diferente.
+
+Os tipos Primitivos de variáveis são: 
+
+    - String: Voltada para textos.
+    - Number: Para números.
+    - Booleano: True or False
+    - null: Nulo. Não tem nada dentro.
+    - undefined: Não armazeda valor, não foi definida ainda.
+
+Ainda tem outros como os Array e o object. Mas, eles vão ficar para outro momento.
