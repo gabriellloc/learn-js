@@ -3,3 +3,6 @@
 [Voltar para a parte 1](../README.md)
 
 ## SUMÁRIO
+- [Condicionais](#condicionais)
+
+## Condicionais
