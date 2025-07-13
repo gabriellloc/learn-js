@@ -22,7 +22,7 @@ Estrutura base:
         bloco
     }
 
-O <strong>if</strong> verifica a condição<br>
+O <strong>if</strong> verifica a condição.<br>
 O <strong>else</strong> é executado caso a condição seja falsa.
 
 Exemplo:<br>
