@@ -282,7 +282,7 @@ O mesmo vale para o decremento.
         <tr>
             <th>4</th>
             <th>relacional</th>
-            <th>==, !=, <=, >=, >, <</th>
+            <th>==, ===, !=, <=, >=, >, <</th>
         </tr>
         <tr>
             <th>3</th>
