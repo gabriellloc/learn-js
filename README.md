@@ -1,6 +1,5 @@
-<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-
-# Aprendendo <i class="devicon-javascript-plain colored"></i>
+# Aprendendo JavaScript <img width="30rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
+          
           
 O <strong>básico</strong> do JavaScript.<br>
 Me chamo Gabriel Oliveira e este repositório reúne tudo o que aprendi sobre o glorioso <strong>Js</strong>.
