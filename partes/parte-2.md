@@ -10,10 +10,15 @@
 
 ## SUMÁRIO
 - [Condicionais](#condicionais)
+    - [if, else, else if](#if-else-e-else-if)
+    - [swith](#swith)
+    - [Tratamento de exceções](#tratamento-de-exceções)
 
 ## Condicionais
 Permite executar diferentes ações com base em uma condição(verdadeira ou falsa).
 
+
+### if, else e else if
 Estrutura base:
 
     if (condição) {
@@ -59,3 +64,42 @@ Para utilizar mais de uma condição, nós podemos usar o <code>else if</code>:
 
     // Saída
     Boa noite!
+
+
+### Swith
+O swith analisa caso a caso de uma condição.
+
+Estrutura:
+
+    let option = 1
+
+    swith (option) {
+        case 1:
+            console.log("Consultar pedido)
+            break
+        case 2:
+            console.log("Falar com a atendente)
+            break
+        case 3:
+            console.log("Cancelar o pedido)
+            break
+        default:
+            console.log("Opção invalida")
+    }
+
+O break interrompe a execução do switch. Caso ele não esteja presente, o JavaScript continuará executando todas as instruções abaixo do case correspondente, até encontrar um break ou o final do switch.
+
+### Tratamento de exceções
+Uma exceção é uma condição ou evento <strong>imprevisto</strong> que ocorre durante o uso da aplicação que interrompe o fluxo normal de operações.
+
+Estrutura:
+
+    Try {
+
+    } Catch {
+
+    } Finally {
+        
+    }
+
+Primeiro ele vai executar o comando que está no bloco do <code>try</code>, caso dê erro, ele executa o <code>catch</code> e por último o <code>finally</code>. Se não der erro ele pula o catch
