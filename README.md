@@ -205,3 +205,4 @@ Considerou os dois como String e concatenou as duas Strings.
 
 Considerou os dois como Number e somou os dois.
 
+<strong>[Ir para o próximo capítulo](./read/cap2.md)</strong>
