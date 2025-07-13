@@ -1,6 +1,16 @@
 # Aprendendo JavaScript
 Aprendendo JavaScript do zero com cursos, desafíos e comentários. Usando o readme como bloco de notas.
 
+## SUMÁRIO
+- [Editor de código](#editor-de-código) 
+- [Objetivo e funcionalidade](#objetivo-e-funcionalidade)
+- [Conectando o js](#conectando-o-js)
+- [Comentários](#comentários)
+- [Variáveis e constantes](#variáveis-e-constantes)
+    - [Explicação de escopos](#explicação-de-escopos)
+    - [Hoisting](#hoisting-levantar-ou-içar)
+
+
 ## Editor de código
 A escolha de um editor de código é pessoal. <br>
 Para a minha jornada, eu escolhi o <a href="https://code.visualstudio.com"> VScode (Visual Studio Code) </a>
