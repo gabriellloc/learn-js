@@ -12,3 +12,33 @@
 - [Condicionais](#condicionais)
 
 ## Condicionais
+Permite executar diferentes ações com base em uma condição(verdadeira ou falsa).
+
+Estrutura base:
+
+    if (condição) {
+        bloco
+    } else {
+        bloco
+    }
+
+O <strong>if</strong> verifica a condição<br>
+O <strong>else</strong> é executado caso a condição seja falsa.
+
+Exemplo:<br>
+Cliente: <i>"Gostaria de um programa que diz se eu posso dirigir ou não com base na idade do usuário."</i>
+
+Primeiro, para dirigir, o usuário precisa ter idade igual ou superior a 18 anos. Assim fica o código:
+
+    let age = 14
+
+    if (age >= 18) {
+        console.log("Você pode dirigir!") // Se verdadeiro
+    } else {
+        console.log("Você não pode dirigir") // Se falso
+    }
+
+    // Saída
+    Você não pode dirigir
+
+Como a condição foi <strong>falsa</strong>, o código pulou o primeiro bloco e seguiu para o <code>else</code>.
