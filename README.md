@@ -16,6 +16,7 @@ Me chamo Gabriel Oliveira e este repositório reúne tudo o que aprendi sobre o 
     - [Number](#number)
     - [Boolean](#boolean)
     - [Undefined e Null](#undefined-e-null)
+    - [Conversão e coerção de tipos](#conversão-e-coerção-de-tipos)
 
 ## Editor de código
 A escolha de um editor de código é pessoal. <br>
@@ -144,3 +145,58 @@ Já o null signica nulo.<br>
     let people_I_hate = null
 
 A gente atribui o valor "nulo" a variável
+
+### Conversão e coerção de tipos
+<strong>Conversão</strong> ocorre de forma consciente, quando você transforma um valor de um tipo para outro, usando métodos específicos para realizar a conversão.
+
+Converter uma String para Number
+
+    let value = "9" // String
+    value = Number(value)
+    
+    //Para exibir o valor no console podemos usar:
+    console.log(value)
+
+    //Saída
+    9
+
+
+Para String:
+
+    let age = 18 // Number
+    age = age.toString() // Ou String(age)
+
+    console.log(age)
+
+    //Saída
+    "18"
+
+
+Para Boolean:
+
+    let option = 1
+    option = Boolean(option)
+    console.log(option)
+
+    //Saída
+    true
+
+No Bolean, todos os valores maiores ou menores que 0 (zero) são considerados <code>true</code> enquanto o próprio 0 (zero) é <code>false</code>
+
+
+Já a <strong>Coerção</strong> ocorre de forma automática. O javaScript tenta automaticamente converter um dos valores para um tipo compatível antes de realiar a operação.
+
+    console.log("10" + 5) 
+    // Estou somando um Number com uma String
+
+Vai depender muito de navegador para navegador. O JavaScript vai acabar considerando os dois como Number ou como String, e sim, isso vai afetar o resultado.
+
+    // Uma saída possível
+    105
+
+Considerou os dois como String e concatenou as duas Strings.
+
+    // Outra Saída possível
+    15
+
+Considerou os dois como Number e somou os dois.
