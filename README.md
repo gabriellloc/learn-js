@@ -14,6 +14,8 @@ Me chamo Gabriel Oliveira e este repositório reúne tudo o que aprendi sobre o 
 - [Tipos de dados](#tipos-de-dados)
     - [String](#string)
     - [Number](#number)
+    - [Boolean](#boolean)
+    - [Undefined e Null](#)
 
 ## Editor de código
 A escolha de um editor de código é pessoal. <br>
@@ -96,7 +98,7 @@ Ainda tem outros como os Array e o object. Mas, eles vão ficar para outro momen
 ### String
 Destinadas a armazenar texto.
 
-    let nome = "Gabriel"
+    let nome = "Gabriel";
 
 Neste caso, a variável <code>nome</code> é do tipo string.
 
@@ -107,7 +109,7 @@ Template literals com a crase para construção e formatação de texto.
 ### Number
 Destinado a armazenar números.
 
-    let num = 18
+    let num = 18;
 
 Neste caso, a variável <code>num</code> é do tipo number.
 
@@ -118,3 +120,13 @@ Os numbers são divididos em <code>inteiros</code> (positivos e negativos), e <c
     18.5 é um número float
 
 ### Boolean
+Destinado a armazenar o estado de verdadeiro ou falso(True or False)
+
+Será útil para validar condições e em outras ocasiões futuras.
+
+    let isLoading = true;
+
+Neste caso, a variável <code>isLoading</code> é do tipo bolean.<br>
+Perceba que, diferente da <code>String</code>, o true não fica entre aspas nem crases, pois ele não é um texto, e sim um valor booleano (um estado lógico).
+
+### Undefined e Null
