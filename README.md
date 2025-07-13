@@ -254,3 +254,5 @@ Para incrementar/decrementar valores diferentes de 1:
 
 O mesmo vale para o decremento.
 
+### Ordem de precedência
+É quando uma expressão contém múltiplos operadores, na programação e em expressões matemáticas, a ordem de precedência define qual operação será realizada primeiro.
