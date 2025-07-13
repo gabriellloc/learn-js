@@ -222,8 +222,6 @@ Expressões<br>
 
     let sum = 5 + 3
 
-O 5 e o 3 são os operadores, que formam a expressão.
-
 ### Incremento e Decremento
 Incremento:
 
