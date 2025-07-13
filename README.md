@@ -13,6 +13,7 @@ Me chamo Gabriel Oliveira e este repositório reúne tudo o que aprendi sobre o 
     - [Hoisting](#hoisting-levantar-ou-içar)
 - [Tipos de dados](#tipos-de-dados)
     - [String](#string)
+    - [Number](#number)
 
 ## Editor de código
 A escolha de um editor de código é pessoal. <br>
@@ -97,9 +98,23 @@ Destinadas a armazenar texto.
 
     let nome = "Gabriel"
 
-Neste caso, o tipo da variável <code>nome</code> é string.
+Neste caso, a variável <code>nome</code> é do tipo string.
 
 As <strong>strings</strong> pode ser criadas com aspas simples (' '), aspas duplas (" ") ou crase (``).
 
 Template literals com a crase para construção e formatação de texto.
 
+### Number
+Destinado a armazenar números.
+
+    let num = 18
+
+Neste caso, a variável <code>num</code> é do tipo number.
+
+Os numbers são divididos em <code>inteiros</code> (positivos e negativos), e <code>float</code> (Números reais).
+
+    18 é um número inteiro
+
+    18.5 é um número float
+
+### Boolean
