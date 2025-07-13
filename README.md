@@ -181,7 +181,7 @@ De Number para Boolean:
     //Saída
     true
 
-No Bolean, todos os valores maiores ou menores que 0 (zero) são considerados <code>true</code> enquanto o próprio 0 (zero) é <code>false</code>
+No Bolean, todos os valores maiores ou menores que 0 (zero) são considerados <code>true</code> enquanto o próprio 0 (zero) é <code>false</code>.
 
 
 Já a <strong>Coerção</strong> ocorre de forma automática. O javaScript tenta automaticamente converter um dos valores para um tipo compatível antes de realiar a operação.
