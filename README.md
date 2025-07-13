@@ -59,4 +59,8 @@ O escopo define o contexto no qual uma varável pode ser referenciada e modifica
         
         - Local (ou de função): Váriaveis declaradas dentro de uma função.
 
-### Hoisting
+### Hoisting (Levantar ou içar)
+Refere ao comportamento do interpretador de mover as declarações de variáveis e funções para o topo do escopo em que foram definidas, antes mesmo da execução do código.<br>
+Esse comportamento possibilita usar uma variável ou função antes que ela esteja definida.
+
+<strong>Importante:</strong> Mesmo que as declarações sejam movidas para o topo do escopo, elas precisam ser declaradas antes de serem usadas. Caso contrário, você receberá uma referência indefinida <i>(undefined)</i>.
