@@ -13,6 +13,7 @@
     - [if, else, else if](#if-else-e-else-if)
     - [swith](#swith)
     - [Tratamento de exceções](#tratamento-de-exceções)
+- [Funções](#funções)
 
 ## Condicionais
 Permite executar diferentes ações com base em uma condição(verdadeira ou falsa).
@@ -103,3 +104,48 @@ Estrutura:
     }
 
 Primeiro ele vai executar o comando que está no bloco do <code>try</code>, caso dê erro, ele executa o <code>catch</code> e por último o <code>finally</code>. Se não der erro ele pula o catch
+
+## Funções
+É um bloco de código que realiza uma tarefa específica ou calcula um valor.<br>
+Ela pode ser chamada(ou invocada) várias vezes.<br>
+Funções ajudam a organizar o código, tornando-o reutilizável e mais fácil de entender.
+
+    function message() {
+        console.log("Olá")
+    }
+
+    message()
+
+    // Saída
+    Olá
+
+<strong>Parâmetros:</strong> É a variável que irá receber um valor em uma função.<br>
+<strong>Argumentos:</strong>É o valor que é passado para a função.
+
+Exemplo de parâmetro e argumento:
+
+    function message(username){
+        console.log("Olá", username)
+    }
+
+    message("Gabriel")
+    message("Ana")
+
+    // Saída
+    Olá Gabriel
+    Olá Ana
+
+Sempre que formos usar os resultados fora da função, nós iremos utilizar o <code>return</code>
+
+    function sum(a,b){
+        let result = a + b
+
+        return result
+    }
+
+    let response = sum(7 + 3)
+    console.log(response)
+
+    // Saída
+    10
+
