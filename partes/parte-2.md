@@ -148,4 +148,3 @@ Sempre que formos usar os resultados fora da função, nós iremos utilizar o <c
 
     // Saída
     10
-
