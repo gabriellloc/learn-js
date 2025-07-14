@@ -6,6 +6,18 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #121214;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #8234e9;
+}
+
 body {
   /* width: 100vw;
   height: 100vh; */
@@ -51,6 +63,10 @@ input:focus {
   border-color: #8234e9;
 }
 
+input:disabled {
+  opacity: 0.5;
+}
+
 button {
   cursor: pointer;
 }
@@ -77,6 +93,9 @@ button {
 ul {
   list-style-type: none;
   margin-top: 42px;
+
+  overflow-y: scroll;
+  max-height: 250px;
 }
 
 .guest {
@@ -93,6 +112,18 @@ ul {
 
   display: flex;
   justify-content: space-between;
+}
+
+.button-icon {
+  background: none;
+  border: none;
+  color: #555;
+
+  transition: color 0.2s;
+}
+
+.button-icon:hover {
+  color: #999;
 }
 
 @media (max-width: 420px) {
