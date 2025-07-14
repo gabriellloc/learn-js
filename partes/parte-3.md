@@ -10,6 +10,7 @@
 
 ## SUMÁRIO
 - [Document Object Model](#document-object-model-dom)
+- [Manipulando elementos](#manipulando-elementos)
 
 
 ## Document Object Model (DOM)
@@ -32,3 +33,5 @@ A forma mais moderna de pegar um document, é com o <code>querySelector</code>.
     const guest2 = document.querySelectorAll(". CLASS DO ELEMENTO")
 
 No querySelector, colocamos o <code>#</code> para indentificar um ID e um <code>.</code> para uma class, assim como no CSS.
+
+## Manipulando elementos
