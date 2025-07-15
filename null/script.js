@@ -1,51 +1,45 @@
-const esp_console = () => {
-    console.log("        ")
+// funções construtoras
+
+function createProduct(name) {
+    const product = {}
+    
+    product.name = name
+    product.details = function(){
+        console.log(`O nome do produto é ${this.name}`)
+    }
+
+    return product
 }
 
-/*
-- Objeto é uma coleção de dados e/ou funcionalidades.
-- Podem ter propriedades e métodos.
-*/
+// O new cria um novo objeto utilizand a estrutura da função construtora.
+const product1 = new createProduct("Teclado")
 
-// Criando o objeto vazio
+console.log(product1)
+product1.details()
 
-const obj = {}
+const product2 = new createProduct("Mouse")
+console.log(product2)
+product2.details()
 
-console.log(typeof obj)
+// Exemplos de funções construtotas disponíveis no próprio JavaScript
 
-console.log("##########END#################")
-esp_console()
+let myName = new String("Rodrigo")
+console.log(myName)
 
-// Criando o objeto com propriedades e métodos
+let price = "40.6".replace(".", "")
+console.log(price)
 
-const user = {
-    email: "gabrieloliveira@email.com",
-    age: 18,
-    name: {
-        first_Name: "Gabriel",
-        surname: "Oliveira",
-    },
-    address: {
-        street: "Rua X",
-        number: "200",
-        city: "São Paulo",
-        postal_code: "12345-123",
-    },
+let date = new Date("2024-1-1")
+console.log(date)
 
-    message: () => {
-        console.log("Oiiiii")
+
+function Person(nome){
+    this.nome = nome
+    this.message = function(){
+        console.log(`Olá, ${this.nome}`)
     }
 }
-// Forma de acessar
-console.log(user.address.number)
-user.message()
 
-esp_console()
-
-// Outra forma de acessa é:
-
-console.log(user["email"])
-console.log(user["name"]["first_Name"])
-
-console.log("##########END#################")
-esp_console()
+const person1 = new Person("Rodrigo")
+console.log(person1)
+person1.message()
